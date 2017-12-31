@@ -222,7 +222,7 @@ div.contacto strong{
 	margin: 10px 10px 10px 0;
 }
 
-footer .formulario{
+ .formulario{
 	display: flex;
 	width: 400px;
 	color: white;
@@ -366,17 +366,27 @@ table, td, th{
 	}
 	.contacto{
 		margin: 0 auto;
+		display: block;
 	}
-	footer .formulario{
+	.contacto a{
+		display: block;
+	}
+	 .formulario{
 		display: block;
 		margin: 0 auto;
 		width: 300px;
 	}
+	.sexo label{
+		display: block;
+	}
 	.intereses label{
 		display: block;
-		font-size: 16px;
+		font-size: 20px;
 	}
-	.
+	input[type="text"]{
+		margin-bottom: 20px;
+	}
+
 	input[type="text"], input[type="email"]{
 		font-size: 16px;
 		padding: 5px;
