@@ -4,10 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>Invie - tus mejores guitarras!!</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta" rel="stylesheet">
-	<link rel="stylesheet" href="css/invie.css">
-	<link rel="stylesheet" href="css/normalize.css">
-
+	<style>
+		@font-face{font-family:'icomoon';src:url('fonts/icomoon.eot?ureg39');src:url('fonts/icomoon.eot?ureg39#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ureg39') format('truetype'),
+    url('fonts/icomoon.woff?ureg39') format('woff'),
+    url('fonts/icomoon.svg?ureg39#icomoon') format('svg');font-weight:normal;font-style:normal}[class*=" icon-"]{font-family:'icomoon'!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-menu:before{content:"\e9bd"}body{font-family:'Allerta', sans-serif;margin:0}.contenedor{max-width:800px;margin:auto;position:relative}.header{position:relative}.logotipo{display:inline-block;margin-left:0}.menu{font-size:24px;display:inline-block;position:absolute;right:0px}.menu li{display:inline-block;margin-left:30px}.menu li:before{content:'∘';font-size:50px;line-height:20px;color:white}.menu a{color:white;text-decoration:none}.portada{color:white;padding:20px;height:500px}.background{background-color:#466173;background-image:url("images/background.png");background-size:cover}.titulo{font-size:70px;font-family:'Allerta', sans-serif;margin-bottom:0px;margin-top:70px}.titulo span{text-decoration:underline}.title-a{margin-top:0;font-size:24px}.portada .button{margin-bottom:70px}.button{border-radius:12px;background:#fd324e;color:white;border:none;padding:7px 12px;font-size:18px;background:linear-gradient(to left, #fe344e, #ff7250);text-decoration:none}.guitarras{color:#1F313C;margin-bottom:60px}.guitarras h2{font-size:35px;font-family:'Allerta', sans-serif}.image-right{position:absolute;right:0;top:-120px}.video-responsive-contenedor{position:relative;padding-top:56.25%}.video-responsive-src{position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:100%}.burguer-button{width:40px;height:40px;line-height:40px;border-radius:50%;background:#395667;display:inline-block;text-align:center;position:fixed;top:20px;left:20px;z-index:9999;color:white;display:none}.video-demo{max-width:500px;border:5px solid #3c5b6e;width:100%}.video-demo-contenedor{display:flex;justify-content:center;margin-bottom:80px}@media only screen and (max-width: 800px){.titulo{font-size:45px;margin-top:30px}.title-a{font-size:18px}.portada{height:auto}.portada .button{margin-bottom:30px;display:inline-block}.guitarras{text-align:center}.image-right{float:none;position:static}.video-demo-contenedor{margin-bottom:30px}}@media screen and (max-width: 650px){header{text-align:center}.logotipo{margin:0}.menu{position:static;display:block}.menu li:first-child{margin:0}.menu ul{padding:0}.video-demo{margin:0 10px}}@media screen and (max-width: 500px){.portada .button{display:block}.burguer-button{display:block}.header{position:static}.menu{background:rgba(255, 60, 88, .8);position:fixed;left:-100%;top:0;z-index:999;bottom:0;width:100%;right:0;display:flex;align-items:center;justify-content:center}.menu ul{flex:1}.portada .contenedor{position:static}.menu li{display:block;margin:0;padding:8px 0;border-bottom:1px solid white}.menu li:before{display:none}.menu li:first-child{border-top:1px solid white}.portada{text-align:center}.titulo{font-size:30px}.title-a{font-size:16px}.guitarras img{width:200px}.video-demo-contenedor{margin:0 10px 30px 10px}}@media screen and(-webkit-min-device-pixel-ratio: 2){.background{background-image:url(images/background2x.png)}}
+	</style>
 </head>
 <body>
 	<section id="portada" class="portada background">
@@ -152,5 +154,18 @@
 		gestos.on("swipeleft", hideMenu);
 		gestos.on("swiperight", showMenu);
 	</script>
+	<link rel="stylesheet" href="css/invie.css">
+	<script src="https://fonts.googleapis.com/css?family=Montserrat|Allerta"></script>
+
+	<script>
+	  WebFont.load({
+	    google: {
+
+	      families: ['Montserrat', 'Allerta']
+
+	    }
+
+	 });
+	</script>    
 </body>
 </html>
