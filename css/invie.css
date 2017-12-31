@@ -379,12 +379,15 @@ table, td, th{
 	.sexo label{
 		display: block;
 	}
+	.formulario label{
+		font-size: 20px;
+	}
 	.intereses label{
 		display: block;
 		font-size: 20px;
 	}
 	input[type="text"]{
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 
 	input[type="text"], input[type="email"]{
